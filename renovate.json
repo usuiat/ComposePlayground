@@ -3,17 +3,13 @@
   "extends": [
     "config:recommended"
   ],
-  "baseBranches": ["main", "alpha"],
+  "baseBranches": ["main", "unstable"],
   "packageRules": [
     {
-      "matchBaseBranches": ["main"],
+      "matchBaseBranches": ["unstable"],
       "matchPackageNames":["androidx.compose.*"],
-      "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+$/"
-    },
-    {
-      "matchBaseBranches": ["alpha"],
-      "matchPackageNames":["androidx.compose.*"],
-      "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+-alpha[0-9]+$/"
+      "ignoreUnstable": false,
+      "respectLatest": false
     }
   ]
 }
