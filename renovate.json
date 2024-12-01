@@ -11,5 +11,6 @@
       "ignoreUnstable": false,
       "respectLatest": false
     }
-  ]
+  ],
+  "automerge": true
 }
