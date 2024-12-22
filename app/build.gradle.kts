@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -36,6 +38,11 @@ android {
     }
     buildFeatures {
         compose = true
+    }
+    configure<KotlinAndroidProjectExtension> {
+        compilerOptions.apply {
+            allWarningsAsErrors.set(true)
+        }
     }
 }
 

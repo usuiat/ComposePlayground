@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.material3.Divider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import net.engawapg.app.trial.composeplayground.ui.theme.ComposePlaygroundTheme
@@ -27,5 +28,5 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Sample() {
-    // TODO
+    Divider()
 }
