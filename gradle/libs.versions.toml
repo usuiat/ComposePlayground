@@ -9,7 +9,11 @@ lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.0"
 compose = "1.7.7"
 material3 = "1.3.1"
-zoomable = "2.0.0-RC1"
+zoomable = "2.2.0"
+ksp = "2.1.10-1.0.31"
+paparazzi = "1.3.5"
+showkase = "1.0.3"
+testParameterInjector = "1.18"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -26,9 +30,15 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 zoomable = { group = "net.engawapg.lib", name = "zoomable", version.ref = "zoomable" }
+showkase-runtime = { group = "com.airbnb.android", name = "showkase", version.ref = "showkase" }
+showkase-processor = { group = "com.airbnb.android", name = "showkase-processor", version.ref = "showkase" }
+test-parameter-injector = { group = "com.google.testparameterinjector", name = "test-parameter-injector", version.ref = "testParameterInjector" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp= { id = "com.google.devtools.ksp", version.ref = "ksp" }
+paparazzi= { id = "app.cash.paparazzi", version.ref = "paparazzi" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 

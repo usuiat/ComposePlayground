@@ -14,6 +14,7 @@ import androidx.compose.ui.res.painterResource
 import net.engawapg.app.trial.composeplayground.ui.theme.ComposePlaygroundTheme
 import net.engawapg.lib.zoomable.rememberZoomState
 import net.engawapg.lib.zoomable.zoomable
+import net.engawapg.sample.ui.TestComposable
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,4 +41,5 @@ fun Sample() {
             .fillMaxSize()
             .zoomable(zoomState)
     )
+    TestComposable()
 }

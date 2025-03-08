@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ComposePlayground"
 include(":app")
- 
+include(":screenshots")
+include(":ui")
