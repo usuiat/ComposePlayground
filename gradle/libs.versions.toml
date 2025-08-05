@@ -7,7 +7,7 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.9.2"
 activityCompose = "1.10.1"
-compose = "1.9.0-beta03"
+compose = "1.9.0-rc01"
 material3 = "1.4.0-alpha18"
 
 [libraries]
