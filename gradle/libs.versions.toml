@@ -8,7 +8,7 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.9.4"
 activityCompose = "1.11.0"
 compose = "1.10.0-rc01"
-material3 = "1.5.0-alpha08"
+material3 = "1.5.0-alpha09"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
