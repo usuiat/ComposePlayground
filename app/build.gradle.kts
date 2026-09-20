@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "net.engawapg.app.trial.composeplayground"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "net.engawapg.app.trial.composeplayground"
