@@ -12,9 +12,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          java-version: |
-            17
-            21
+          java-version: '21'
           distribution: 'adopt'
 
       - name: Build
